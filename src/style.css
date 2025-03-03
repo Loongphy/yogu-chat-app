@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  @apply h-full overflow-hidden bg-white dark:bg-[#1E1F22];
+}
+
+#app {
+  @apply h-full overflow-hidden bg-white dark:bg-[#1E1F22];
+}

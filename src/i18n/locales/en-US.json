@@ -1,0 +1,117 @@
+{
+  "settings": {
+    "title": "Settings",
+    "sidebar": {
+      "account": "Account",
+      "appearance": "Appearance",
+      "shortcut": "Shortcuts",
+      "about": "About",
+      "provider": "Model Providers",
+      "model": "Model List",
+      "searcher": "Web Search"
+    },
+    "searcher": {
+      "enableWebSearch": "Enable Web Search",
+      "enableWebSearchDesc": "Allow AI to retrieve the latest information through internet search",
+      "searchEngine": "Web Search Engine",
+      "apiKey": "API Key",
+      "apiKeyPlaceholder": "Enter API Key",
+      "apiKeyDesc": "API Key for accessing the selected search engine",
+      "resultCount": "Search Result Count",
+      "resultCountDesc": "Number of results returned per search (1-10)"
+    },
+    "about": {
+      "version": "Version",
+      "currentVersion": "Current Version: {version}",
+      "contact": "Contact Us",
+      "contactDesc": "If you have any questions or suggestions, please feel free to contact us:",
+      "email": "Email: {email}"
+    },
+    "appearance": {
+      "language": "Language",
+      "theme": "Theme",
+      "themes": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "errors": {
+        "themeInitFailed": "Failed to initialize theme"
+      }
+    },
+    "shortcut": {
+      "title": "Shortcuts",
+      "search": "Open Search",
+      "openSettings": "Open Settings",
+      "toggleTheme": "Toggle Theme"
+    }
+  },
+  "header": {
+    "login": "Login",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "search": {
+    "placeholder": "Search chats...",
+    "results": "Search Results",
+    "noResults": "No search results found",
+    "noChats": "No matching chats found",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "earlier": "Earlier"
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "manage": "Manage",
+    "more": "More",
+    "viewCode": "View Code",
+    "preview": "Preview",
+    "wordWrap": {
+      "enable": "Word Wrap",
+      "disable": "Disable Word Wrap"
+    }
+  },
+  "chat": {
+    "input": {
+      "placeholder": "Type a message...",
+      "webSearch": "Web Search"
+    },
+    "regenerate": "Regenerate",
+    "newChat": "New Chat",
+    "errors": {
+      "createChatFailed": "Failed to create new chat",
+      "createChatUnknown": "Unknown error occurred while creating new chat",
+      "sendMessageFailed": "Failed to send message",
+      "sendMessageUnknown": "Unknown error occurred while sending message"
+    }
+  },
+  "provider": {
+    "title": "Provider List",
+    "add": "Add Provider",
+    "delete": "Delete Provider",
+    "name": "Name",
+    "baseUrl": "Base URL",
+    "apiKey": "API Key",
+    "modelId": "Model ID",
+    "emptyModels": "Leave empty to include all models from \"/models\"",
+    "newModelPlaceholder": "Enter new model name",
+    "namePlaceholder": "Enter service name",
+    "urlPlaceholder": "Enter server address",
+    "apiKeyPlaceholder": "Enter API Key",
+    "emptyState": "Please select or add a service provider",
+    "protocol": "Protocol"
+  },
+  "model": {
+    "title": "Model List",
+    "select": "Select Model"
+  },
+  "upload": {
+    "title": "Attachments",
+    "fileSizeExceeded": "File size exceeds limit (max {maxSize}MB)"
+  }
+} 

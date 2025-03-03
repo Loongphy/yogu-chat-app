@@ -1,0 +1,117 @@
+{
+  "settings": {
+    "title": "設定",
+    "sidebar": {
+      "account": "アカウント",
+      "appearance": "外観",
+      "shortcut": "ショートカット",
+      "about": "概要",
+      "provider": "モデルプロバイダー",
+      "model": "モデルリスト",
+      "searcher": "ウェブ検索"
+    },
+    "searcher": {
+      "enableWebSearch": "ウェブ検索を有効にする",
+      "enableWebSearchDesc": "AIがインターネット検索を通じて最新情報を取得できるようにする",
+      "searchEngine": "ウェブ検索エンジン",
+      "apiKey": "APIキー",
+      "apiKeyPlaceholder": "APIキーを入力",
+      "apiKeyDesc": "選択した検索エンジンにアクセスするためのAPIキー",
+      "resultCount": "検索結果数",
+      "resultCountDesc": "検索ごとに返される結果の数（1〜10）"
+    },
+    "about": {
+      "version": "バージョン情報",
+      "currentVersion": "現在のバージョン：{version}",
+      "contact": "お問い合わせ",
+      "contactDesc": "ご質問やご提案がございましたら、以下の方法でお問い合わせください：",
+      "email": "メール：{email}"
+    },
+    "appearance": {
+      "language": "言語",
+      "theme": "テーマ",
+      "themes": {
+        "light": "ライト",
+        "dark": "ダーク",
+        "system": "システム"
+      },
+      "errors": {
+        "themeInitFailed": "テーマの初期化に失敗しました"
+      }
+    },
+    "shortcut": {
+      "title": "ショートカット",
+      "search": "検索を開く",
+      "openSettings": "設定を開く",
+      "toggleTheme": "テーマを切り替える"
+    }
+  },
+  "header": {
+    "login": "ログイン",
+    "profile": "プロフィール",
+    "logout": "ログアウト"
+  },
+  "search": {
+    "placeholder": "チャットを検索...",
+    "results": "検索結果",
+    "noResults": "検索結果が見つかりません",
+    "noChats": "一致するチャットが見つかりません",
+    "today": "今日",
+    "yesterday": "昨日",
+    "earlier": "以前"
+  },
+  "common": {
+    "copy": "コピー",
+    "copied": "コピー済み",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "manage": "管理",
+    "more": "その他",
+    "viewCode": "コードを表示",
+    "preview": "プレビュー",
+    "wordWrap": {
+      "enable": "折り返し",
+      "disable": "折り返しを無効"
+    }
+  },
+  "chat": {
+    "input": {
+      "placeholder": "メッセージを入力...",
+      "webSearch": "ウェブ検索"
+    },
+    "regenerate": "再生成",
+    "newChat": "新しいチャット",
+    "errors": {
+      "createChatFailed": "新しいチャットの作成に失敗しました",
+      "createChatUnknown": "チャット作成中に不明なエラーが発生しました",
+      "sendMessageFailed": "メッセージの送信に失敗しました",
+      "sendMessageUnknown": "メッセージ送信中に不明なエラーが発生しました"
+    }
+  },
+  "provider": {
+    "title": "プロバイダーリスト",
+    "add": "プロバイダーを追加",
+    "delete": "プロバイダーを削除",
+    "name": "名前",
+    "baseUrl": "ベースURL",
+    "apiKey": "APIキー",
+    "modelId": "モデルID",
+    "emptyModels": "空のままにすると、\"/models\"からすべてのモデルが含まれます",
+    "newModelPlaceholder": "新しいモデル名を入力",
+    "namePlaceholder": "サービス名を入力",
+    "urlPlaceholder": "サーバーアドレスを入力",
+    "apiKeyPlaceholder": "APIキーを入力",
+    "emptyState": "サービスプロバイダーを選択または追加してください",
+    "protocol": "プロトコル"
+  },
+  "model": {
+    "title": "モデルリスト",
+    "select": "モデルを選択"
+  },
+  "upload": {
+    "title": "添付ファイル",
+    "fileSizeExceeded": "ファイルサイズが制限を超えています（最大{maxSize}MB）"
+  }
+} 

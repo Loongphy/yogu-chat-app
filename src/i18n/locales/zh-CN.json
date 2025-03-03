@@ -1,0 +1,117 @@
+{
+  "settings": {
+    "title": "设置",
+    "sidebar": {
+      "account": "账户",
+      "appearance": "外观",
+      "shortcut": "快捷键",
+      "about": "关于",
+      "provider": "模型服务商",
+      "model": "模型列表",
+      "searcher": "联网搜索"
+    },
+    "searcher": {
+      "enableWebSearch": "启用联网搜索",
+      "enableWebSearchDesc": "允许 AI 通过互联网搜索获取最新信息",
+      "searchEngine": "联网搜索引擎",
+      "apiKey": "API 秘钥",
+      "apiKeyPlaceholder": "输入 API 秘钥",
+      "apiKeyDesc": "用于访问所选搜索引擎的 API 秘钥",
+      "resultCount": "搜索结果数量",
+      "resultCountDesc": "每次搜索返回的结果数量 (1-10)"
+    },
+    "about": {
+      "version": "版本信息",
+      "currentVersion": "当前版本：{version}",
+      "contact": "联系我们",
+      "contactDesc": "如果您有任何问题或建议，欢迎通过以下方式联系我们：",
+      "email": "邮箱：{email}"
+    },
+    "appearance": {
+      "language": "语言",
+      "theme": "主题",
+      "themes": {
+        "light": "浅色",
+        "dark": "深色",
+        "system": "跟随系统"
+      },
+      "errors": {
+        "themeInitFailed": "初始化主题失败"
+      }
+    },
+    "shortcut": {
+      "title": "快捷键",
+      "search": "打开搜索",
+      "openSettings": "打开设置",
+      "toggleTheme": "切换主题"
+    }
+  },
+  "header": {
+    "login": "登录",
+    "profile": "个人信息",
+    "logout": "退出登录"
+  },
+  "search": {
+    "placeholder": "搜索聊天...",
+    "results": "搜索结果",
+    "noResults": "没有找到相关搜索结果",
+    "noChats": "没有找到相关聊天记录",
+    "today": "今天",
+    "yesterday": "昨天",
+    "earlier": "更早"
+  },
+  "common": {
+    "copy": "复制",
+    "copied": "已复制",
+    "cancel": "取消",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "manage": "管理",
+    "more": "更多",
+    "viewCode": "查看代码",
+    "preview": "预览",
+    "wordWrap": {
+      "enable": "自动换行",
+      "disable": "取消自动换行"
+    }
+  },
+  "chat": {
+    "input": {
+      "placeholder": "输入消息...",
+      "webSearch": "联网搜索"
+    },
+    "regenerate": "重新生成",
+    "newChat": "新对话",
+    "errors": {
+      "createChatFailed": "创建新聊天失败",
+      "createChatUnknown": "创建新聊天时发生未知错误",
+      "sendMessageFailed": "发送消息失败",
+      "sendMessageUnknown": "发送消息时发生未知错误"
+    }
+  },
+  "provider": {
+    "title": "服务商列表",
+    "add": "添加服务商",
+    "delete": "删除服务商",
+    "name": "名称",
+    "baseUrl": "基础 URL",
+    "apiKey": "API Key",
+    "modelId": "模型ID",
+    "emptyModels": "留空表示包含所有来自 \"/models\" 的模型",
+    "newModelPlaceholder": "请输入新模型名称",
+    "namePlaceholder": "请输入服务名称",
+    "urlPlaceholder": "请输入服务器地址",
+    "apiKeyPlaceholder": "请输入 API Key",
+    "emptyState": "请选择或添加一个服务提供者",
+    "protocol": "协议"
+  },
+  "model": {
+    "title": "模型列表",
+    "select": "选择模型"
+  },
+  "upload": {
+    "title": "附件",
+    "fileSizeExceeded": "文件大小超过限制（最大 {maxSize}MB）"
+  }
+} 
